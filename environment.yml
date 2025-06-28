@@ -1,0 +1,8 @@
+name: co2-predictor-env
+dependencies:
+  - python=3.8
+  - pandas
+  - scikit-learn
+  - xgboost
+  - numpy
+  - streamlit
