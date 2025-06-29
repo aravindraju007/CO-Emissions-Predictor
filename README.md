@@ -34,46 +34,46 @@ conda activate co2-predictor-env
 ### 🚀 How to Use
 🔧 Train the Model
 
-```python src/model.py
+```bash python src/model.py
 ```
 ### 📊 Evaluate the Model
 
-```python src/evaluate.py
+```bash python src/evaluate.py
 ```
 ## 📈 Visualize Results
 
-```python src/visualize.py
+```bash python src/visualize.py
 ```
 ### 🌐 Launch the Streamlit App
 
-```streamlit run app/streamlit_app.py
+```bash streamlit run app/streamlit_app.py
 ```
 ### 📊 Sample Metrics
-```Metric Value (example)
+Metric Value (example)
 MAE 4.58
 RMSE 6.92
 R² 0.82
-```
+
 
 ### 🛠 Features Used
-```Building geometry: TOTAL_FLOOR_AREA, PROPERTY_TYPE, etc.
+Building geometry: TOTAL_FLOOR_AREA, PROPERTY_TYPE, etc.
 
 Energy systems: MAIN_FUEL, WALLS_ENERGY_EFF, WINDOWS_ENERGY_EFF, etc.
 
 Heating and lighting systems
 
 Energy consumption statistics
-```
+
 
 ### 🧪 Sample Prediction Flow (Streamlit)
-```Upload your .csv file. 
+Upload your .csv file. 
 
 App displays raw + cleaned data.
 
 Predicts and displays CO₂ emissions.
 
 Allows you to download the result.
-```
+
 
 ### 👤 Author
 Aravind Raju
