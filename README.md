@@ -80,7 +80,7 @@ Allows you to download the result.
 
 
 ### 👤 Author
-Aravind Raju
-Data Analyst & Aspiring Data Scientist
-📧 aravindraju007@gmail.com
+Aravind Raju,
+Data Analyst & Aspiring Data Scientist,
+📧 aravindraju007@gmail.com,
 🔗 LinkedIn: www.linkedin.com/in/arraju-wk796
