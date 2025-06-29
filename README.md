@@ -34,19 +34,23 @@ conda activate co2-predictor-env
 ### 🚀 How to Use
 🔧 Train the Model
 
-```bash python src/model.py
+```bash
+python src/model.py
 ```
 ### 📊 Evaluate the Model
 
-```bash python src/evaluate.py
+```bash
+python src/evaluate.py
 ```
 ## 📈 Visualize Results
 
-```bash python src/visualize.py
+```bash
+python src/visualize.py
 ```
 ### 🌐 Launch the Streamlit App
 
-```bash streamlit run app/streamlit_app.py
+```bash
+streamlit run app/streamlit_app.py
 ```
 ### 📊 Sample Metrics
 Metric Value (example)
