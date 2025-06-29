@@ -17,71 +17,66 @@ To develop a regression-based machine learning model that predicts the **current
 ```bash
 git clone https://github.com/your-username/co2-emissions-predictor.git
 cd co2-emissions-predictor
-2️⃣ Create a virtual environment
-bash
-Copy
-Edit
+```
+### 2️⃣ Create a virtual environment
+
+```bash
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
-3️⃣ Install dependencies
-bash
-Copy
-Edit
+```
+## 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-Or using Conda:
-
-bash
-Copy
-Edit
+Or 
 conda env create -f environment.yml
 conda activate co2-predictor-env
-🚀 How to Use
+```
+### 🚀 How to Use
 🔧 Train the Model
-bash
-Copy
-Edit
-python src/model.py
-📊 Evaluate the Model
-bash
-Copy
-Edit
-python src/evaluate.py
-📈 Visualize Results
-bash
-Copy
-Edit
-python src/visualize.py
-🌐 Launch the Streamlit App
-bash
-Copy
-Edit
-streamlit run app/streamlit_app.py
-📊 Sample Metrics
-Metric Value (example)
+
+```python src/model.py
+```
+### 📊 Evaluate the Model
+
+```python src/evaluate.py
+```
+## 📈 Visualize Results
+
+```python src/visualize.py
+```
+### 🌐 Launch the Streamlit App
+
+```streamlit run app/streamlit_app.py
+```
+### 📊 Sample Metrics
+```Metric Value (example)
 MAE 4.58
 RMSE 6.92
 R² 0.82
+```
 
-🛠 Features Used
-Building geometry: TOTAL_FLOOR_AREA, PROPERTY_TYPE, etc.
+### 🛠 Features Used
+```Building geometry: TOTAL_FLOOR_AREA, PROPERTY_TYPE, etc.
 
 Energy systems: MAIN_FUEL, WALLS_ENERGY_EFF, WINDOWS_ENERGY_EFF, etc.
 
 Heating and lighting systems
 
 Energy consumption statistics
+```
 
-🧪 Sample Prediction Flow (Streamlit)
-Upload your .csv file.
+### 🧪 Sample Prediction Flow (Streamlit)
+```Upload your .csv file. 
 
 App displays raw + cleaned data.
 
 Predicts and displays CO₂ emissions.
 
 Allows you to download the result.
+```
 
-👤 Author
+### 👤 Author
 Aravind Raju
 Data Analyst & Aspiring Data Scientist
 📧 aravindraju007@gmail.com
-🔗 LinkedIn
+🔗 LinkedIn: www.linkedin.com/in/arraju-wk796
